@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css">
+    <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <title>ToDo List</title>
+</head>
+<body>
+    <h2>&#128221; Todos List &#128221;</h2>
+    <form action="/todo_Table.html">
+        <div class="row">
+            <div class="col-3">
+                <label for="Title"> <strong>Title :-<strong></label><br>
+                <div class="discription">
+                    <label for="Discription"><strong>Discription :-</strong> </label>
+                </div>
+            </div>
+            <div class="col-7">
+                <input type="text" name="title" id="title"><br><br>
+                <textarea name="desc" id="desc" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+        <div class="button">
+            <input type="submit" value="Submit" onclick="AddTodo()">
+        </div>
+    </form>
+</body>
+
+<script src="/todos_list.js"></script>
+
+</html>

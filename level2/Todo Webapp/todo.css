@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+label {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input {
+    padding-top: 10px;
+    border-radius: 15px;
+    width: 500px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+input:focus {
+    outline: none;
+}
+
+h2 {
+    font-size: 25px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid white;
+    text-align: center;
+    letter-spacing: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+i {
+    margin-left: 20px;
+}
+
+textarea {
+    border-radius: 15px;
+    border-color: black;
+    width: 500px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+textarea:focus {
+    outline: none;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    padding-top: 20px;
+}
+
+.col-3 {
+    display: grid;
+    margin-left: 400px;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.col-7 {
+    margin-bottom: 20px;
+}
+
+.discription {
+    padding-bottom: 150px;
+}
+
+.button {
+    text-align: center;
+}
+
+input[type=submit] {
+    font-size: 17px;
+    width: 157px;
+    margin-top: 30px;
+    border: 2px solid white;
+    margin-left: 100px;
+    padding-bottom: 10px;
+    color: white;
+    transition: 0.3s all ease-in;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    border-radius: 25px;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    color: black;
+    border: 6px double black;
+    transition: 0.3s all ease-in;
+}
+
+th, tr, td {
+    padding: 15px;
+}
+
+
+.container {
+    text-align: center;
+    margin-left: 8%;
+    margin-top: 50px;
+}
+
+table {
+    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+    border-color: white;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+th{
+    border-bottom: 2px solid white;
+}
+
+#delete {
+    background-color: transparent;
+    color: rgb(214, 73, 73);
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px;
+    transition: 0.3s all ease-in;
+    padding-right: 30px;
+}
+
+#delete:hover {
+    background-color: rgb(214, 73, 73);
+    color: white;
+    transition: 0.3s all ease-in;
+}
+
+a {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    padding-inline: 35px;
+    transition: 0.3s all ease-in;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 17px;
+    margin-inline: 20px;
+    cursor: pointer;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+    border: 6px double black;
+    transition: 0.3s all ease-in;
+}
+
+.btn {
+    text-align: center;
+    margin-top: 50px;
+}
+i{
+    color: white;
+    font-size:20px;
+}
+.noTodo{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 100px;
+    font-weight: 900;
+
+}
